@@ -12,14 +12,14 @@ html, body {
 body {
     background-color: #fff;
     font-family: 'Baloo Thambi 2', sans-serif;
-    color: #000;
+    color: #181818;
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
 .container {
     width: 90%;
-    max-width: 1120px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -30,13 +30,8 @@ a, button {
 a {
     text-decoration: none;
     color: inherit;
-    &:hover {
-        text-decoration: underline;
-    }
 }
 
 ol, ul {
     list-style: none;
 }
-
-@import 'fonts.scss';
