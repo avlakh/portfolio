@@ -1,7 +1,7 @@
 <template>
     <!-- TODO: side block & page overlay to be done  -->
     <!-- TODO: mobile menu to be done -->
-    <header>
+    <header :class="{'header-scroll' : scrollPosition > 30}">
         <div class="container">
             <nav id="main-menu">
                 <ul>
@@ -18,7 +18,23 @@
 
 <script>
 export default {
-    name: 'SiteHeader'
+    name: 'SiteHeader',
+    data () {
+        return {
+            scrollPosition: null
+        }
+    },
+    mounted() {
+        window.addEventListener('scroll', this.updateScroll);
+    },
+    methods: {
+        updateScroll() {
+            this.scrollPosition = window.scrollY;
+        }
+    },
+    destroy() {
+        window.removeEventListener('scroll', this.updateScroll)
+    }
 }
 </script>
 

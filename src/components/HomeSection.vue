@@ -4,8 +4,7 @@
             <div class="content-container">
                 <div class="home-section-text">
                     <h1>Artem Vlakh</h1>
-                    <h4>Front End Developer</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ipsam esse autem voluptate maiores architecto, officiis optio quibusdam odio eum!</p>
+                    <h2>Front-end Developer</h2>
                     <a href="#about" class="btn">About me</a>
                 </div>
                 <div class="home-section-img">
@@ -28,16 +27,11 @@ export default {
 
 .home-section {
     height: 100vh;
-    background-color: #e9f1fb;
     padding: 80px 0;
     .container {
         box-shadow: inset 10px 10px 10px #d1d9e6, inset -10px -10px 10px #f9f9f9;
         border-radius: 12px;
         .content-container {
-            width: 90%;
-            height: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
             display: flex;
             align-items: center;
             justify-content: start;
@@ -49,26 +43,22 @@ export default {
 .home-section-text {
     width: 50%;
     h1 {
-        font-size: 50px;
-        line-height: 60px;
-        background: linear-gradient(90deg, #026ee2, #013369);
+        font-size: 64px;
+        line-height: 72px;
+        background: linear-gradient(to bottom, #026ee2 30%, #0355ad 70%);
         color: transparent;
         -webkit-background-clip: text;
+        margin-bottom: 15px;
     }
-    h4 {
+    h2 {
         font-size: 26px;
         line-height: 32px;
-        margin-bottom: 16px;
-    }
-    p {
-        padding-right: 20%;
-        margin-bottom: 30px;
+        margin-bottom: 32px;
     }
     .btn {
         display: inline-block;
         text-transform: capitalize;
         width: 30%;
-        height: 100%;
         padding: 10px 20px;
         transition: all 0.2s ease;
         border-radius: 12px;

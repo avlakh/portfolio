@@ -4,7 +4,9 @@ header {
     height: 80px;
     width: 100%;
     position: fixed;
+    z-index: 100;
     background-color: #e9f1fb;
+    transition: all 0.2s ease;
     // TODO: add box shadow on scroll, header to change on scroll
     // box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
 }
@@ -25,7 +27,7 @@ header {
 }
 
 li {
-    font-size: 22px;
+    font-size: 20px;
     &:hover {
         color: $accent-clr;
     }
@@ -47,4 +49,9 @@ li {
             }
         }
     }
+}
+
+.header-scroll {
+    height: 60px;
+    box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
 }
