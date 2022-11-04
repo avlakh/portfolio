@@ -1,7 +1,7 @@
 <template>
-    <section class="home-section">
-        <div class="container">
-            <div class="content-container">
+    <section id="home-section">
+        <div class="frame-container">
+            <div class="container">
                 <div class="home-section-text">
                     <h1>Artem Vlakh</h1>
                     <h2>Front-end Developer</h2>
@@ -25,13 +25,12 @@ export default {
 
 @import '@/assets/css/vars.scss';
 
-.home-section {
-    height: 100vh;
-    padding: 80px 0;
-    .container {
+#home-section {
+    padding: 80px 0 40px;
+    .frame-container {
         box-shadow: inset 10px 10px 10px #d1d9e6, inset -10px -10px 10px #f9f9f9;
         border-radius: 12px;
-        .content-container {
+        .container {
             display: flex;
             align-items: center;
             justify-content: start;
@@ -43,16 +42,12 @@ export default {
 .home-section-text {
     width: 50%;
     h1 {
-        font-size: 64px;
-        line-height: 72px;
         background: linear-gradient(to bottom, #026ee2 30%, #0355ad 70%);
         color: transparent;
         -webkit-background-clip: text;
         margin-bottom: 15px;
     }
     h2 {
-        font-size: 26px;
-        line-height: 32px;
         margin-bottom: 32px;
     }
     .btn {

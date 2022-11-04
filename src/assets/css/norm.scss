@@ -22,13 +22,13 @@ body {
     scroll-behavior: smooth;
 }
 
-.container {
+.frame-container {
     width: 90%;
     max-width: 1600px;
     margin: 0 auto;
 }
 
-.content-container {
+.container {
     width: 90%;
     height: 100%;
     max-width: 1200px;
@@ -46,4 +46,26 @@ a {
 
 ol, ul {
     list-style: none;
+}
+
+// HEADINGS
+
+h1 {
+    font-size: 64px;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 26px;
+}
+
+h4 {
+    font-size: 18px;
+    line-height: 26px;
 }
