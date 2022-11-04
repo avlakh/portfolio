@@ -22,6 +22,7 @@
                 </Carousel>
             </div>
         </section>
+        <MyCertificates></MyCertificates>
     </main>
     <SiteFooter></SiteFooter>
 </template>
@@ -32,26 +33,28 @@ import SiteHeader from '@/components/SiteHeader.vue';
 import SiteFooter from '@/components/SiteFooter.vue';
 import HomeSection from '@/components/HomeSection.vue';
 import AboutMe from '@/components/AboutMe.vue';
+import MyCertificates from '@/components/MyCertificates.vue';
 import axios from 'axios';
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Navigation } from 'vue3-carousel'
 
 export default {
     components: {
-        SiteHeader,
-        SiteFooter,
-        HomeSection,
-        AboutMe,
-        Carousel,
-        Slide,
-        Navigation
-    },
+    SiteHeader,
+    SiteFooter,
+    HomeSection,
+    AboutMe,
+    Carousel,
+    Slide,
+    Navigation,
+    MyCertificates
+},
     data(){
         return {
             slides: [],
             sliderSettings: {
                 itemsToShow: 1.1,
-                // autoplay: 3000,
+                autoplay: 3000,
 				wrapAround: true
             }
         }
