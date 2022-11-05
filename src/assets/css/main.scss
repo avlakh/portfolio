@@ -1,3 +1,5 @@
+@import 'vars.scss';
+
 #projects {
     padding: 40px 0;
     h2 {
@@ -20,6 +22,10 @@
     border-radius: 12px;
     &:hover {
         box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+        color: $accent-clr;
+    }
+    &:active {
+        box-shadow: inset 5px 5px 5px #d1d9e6, inset -5px -5px 5px #f9f9f9;
     }
 }
 
@@ -30,6 +36,10 @@
     border-radius: 12px;
     &:hover {
         box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+        color: $accent-clr;
+    }
+    &:active {
+        box-shadow: inset 5px 5px 5px #d1d9e6, inset -5px -5px 5px #f9f9f9;
     }
 }
 

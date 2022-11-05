@@ -1,0 +1,38 @@
+@import 'vars.scss';
+
+footer {
+    box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+    .container h2 {
+        margin-bottom: 40px;
+    }
+}
+
+
+.footer-content {
+    margin-bottom: 20px;
+    a {
+        font-size: 24px;
+        &:hover {
+            color: $accent-clr;
+        }
+    }
+    
+}
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 40px;
+    a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.footer-icons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
