@@ -1,6 +1,7 @@
 @import 'vars.scss';
 
 footer {
+    padding: 40px 0 20px;
     box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
     .container h2 {
         margin-bottom: 40px;
@@ -35,4 +36,32 @@ footer {
     display: flex;
     gap: 30px;
     justify-content: center;
+    a {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .footer-icons a {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    footer .container h2 {
+        text-align: center;
+    }
+    .footer-contact {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }

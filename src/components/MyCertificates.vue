@@ -37,7 +37,7 @@ export default {
 
 .certificates-grid {
     display: grid;
-    grid-template: 1fr / 1fr 1fr;
+    grid-template: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(300px, 1fr));
     gap: 40px;
     .card-img {
         width: 100%;
@@ -56,5 +56,6 @@ export default {
         }
     }
 }
+
 
 </style>

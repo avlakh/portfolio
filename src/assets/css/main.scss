@@ -80,3 +80,9 @@
         border-radius: 12px;
     }
 }
+
+@media screen and (max-width: 1400px) {
+    .carousel__next, .carousel__prev {
+        display: none;
+    }
+}

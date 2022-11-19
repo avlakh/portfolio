@@ -2,11 +2,11 @@
     <SiteHeader></SiteHeader>
     <main>
         <HomeSection></HomeSection>
-        <AboutMe></AboutMe>
+        <AboutMe ></AboutMe>
         <section id="projects">
             <div class="container">
                 <h2>Projects</h2>
-                <Carousel :settings="sliderSettings">
+                <Carousel :settings="sliderSettings" :breakpoints="sliderBreakpoints">
                     <Slide v-for="slide in slides" :key="slide">
                         <div class="content-wrap">
                             <div class="img-wrap">
@@ -17,7 +17,7 @@
                         </div>
                     </Slide>
                     <template #addons>
-                        <Navigation />
+                        <Navigation/>
                     </template>
                 </Carousel>
             </div>
@@ -56,6 +56,14 @@ export default {
                 itemsToShow: 1.1,
                 autoplay: 3000,
 				wrapAround: true
+            },
+            sliderBreakpoints: {
+                1150: {
+                    itemsToShow: 1.1
+                },
+                250: {
+                    itemsToShow: 1
+                }
             }
         }
     },
@@ -64,7 +72,6 @@ export default {
             .get('data/MyProjects.json')
             .then(resp =>{
                 this.slides = resp.data;
-                console.log(this.slides);
             });
     }
 }

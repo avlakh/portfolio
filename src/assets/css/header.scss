@@ -9,11 +9,23 @@ header {
     transition: all 0.2s ease;
 }
 
+// header adjustment while scrolling
+
+.header-scroll {
+    height: 60px;
+    box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+}
+
 .container,
-#main-menu {
+#main-menu,
+#main-menu ul,
+#mobile-main-menu,
+#mobile-main-menu ul {
     width: 100%;
     height: 100%;
 }
+
+// main menu navigation
 
 #main-menu ul {
     display: flex;
@@ -49,7 +61,175 @@ li {
     }
 }
 
-.header-scroll {
-    height: 60px;
+// header mobile menu navigation
+
+#mobile-main-menu ul {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mobile-main-menu ul li {
     box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+    border-radius: 12px;
+    &:active {
+        box-shadow: inset 5px 5px 5px #d1d9e6, inset -5px -5px 5px #f9f9f9;
+    }
+}
+
+/*!
+ * Hamburgers
+ * @description Tasty CSS-animated hamburgers
+ * @author Jonathan Suh @jonsuh
+ * @site https://jonsuh.com/hamburgers
+ * @link https://github.com/jonsuh/hamburgers
+ */
+
+.hamburger {
+	padding: 15px 15px;
+	display: inline-block;
+	cursor: pointer;
+	transition-property: opacity, filter;
+	transition-duration: 0.15s;
+	transition-timing-function: linear;
+	font: inherit;
+	color: #fff;
+	text-transform: none;
+	background-color: transparent;
+	border: 0;
+	margin: 0;
+	overflow: visible; }
+	.hamburger:hover {
+	  opacity: 0.7; }
+	.hamburger.is-active:hover {
+	  opacity: 0.7; }
+	.hamburger.is-active .hamburger-inner,
+	.hamburger.is-active .hamburger-inner::before,
+	.hamburger.is-active .hamburger-inner::after {
+	  background-color: #181818; }
+  
+  .hamburger-box {
+	width: 40px;
+	height: 24px;
+	display: inline-block;
+	position: relative; }
+  
+  .hamburger-inner {
+	display: block;
+	top: 50%;
+	background-color: #181818;
+	margin-top: -2px; }
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+	  width: 40px;
+	  height: 4px;
+	  background-color: #181818;
+	  border-radius: 4px;
+	  position: absolute;
+	  transition-property: transform;
+	  transition-duration: 0.15s;
+	  transition-timing-function: ease; }
+	.hamburger-inner::before, .hamburger-inner::after {
+	  content: "";
+	  display: block; }
+	.hamburger-inner::before {
+	  top: -10px; }
+	.hamburger-inner::after {
+	  bottom: -10px; }
+  
+  /*
+   * Spin
+   */
+.hamburger--spin .hamburger-inner {
+  transition-duration: 0.22s;
+  transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+  .hamburger--spin .hamburger-inner::before {
+	transition: top 0.1s 0.25s ease-in, opacity 0.1s ease-in; }
+  .hamburger--spin .hamburger-inner::after {
+	transition: bottom 0.1s 0.25s ease-in, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.hamburger--spin.is-active .hamburger-inner {
+  transform: rotate(225deg);
+  transition-delay: 0.12s;
+  transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1); }
+  .hamburger--spin.is-active .hamburger-inner::before {
+	top: 0;
+	opacity: 0;
+	transition: top 0.1s ease-out, opacity 0.1s 0.12s ease-out; }
+  .hamburger--spin.is-active .hamburger-inner::after {
+	bottom: 0;
+	transform: rotate(-90deg);
+	transition: bottom 0.1s ease-out, transform 0.22s 0.12s cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
+// custom modification to hamburger
+
+.hamburger {
+    padding: 15px 15px;
+    display: flex;
+    box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+    border-radius: 12px;
+    &:active {
+        box-shadow: inset 5px 5px 5px #d1d9e6, inset -5px -5px 5px #f9f9f9;
+    }
+}
+
+// side block & page overlay upon clicking header
+
+#side-block {
+    display: block;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #e9f1fb;
+    padding: 20px;
+    height: 100vh;
+    z-index: 2000;
+    transform: translateY(-100vh);
+    transition: all .5s ease;
+    &.open {
+    transform: translateY(0);
+    }
+}
+  
+#page-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: .7);
+    display: none;
+    z-index: 1500;
+    &.open {
+        display: block;
+    }
+}
+
+#mobile-side-menu ul {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    li {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+// responsive mode 
+
+@media screen and (max-width: 900px){
+    #main-menu ul {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #main-menu {
+        display: none;
+    }
+    #mobile-main-menu ul {
+        display: flex;
+    }
 }

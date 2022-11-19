@@ -8,7 +8,7 @@
                     <a href="#about" class="btn">About me</a>
                 </div>
                 <div class="home-section-img">
-                    <img src="@/assets/images/main-photo.jpg" alt="main photo">
+                    <img src="@/assets/images/main-photo.png" alt="main photo">
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ export default {
             display: flex;
             align-items: center;
             justify-content: start;
-            padding: 25px 0;
+            padding: 25px 0 0;
         }
     }
 }
@@ -42,7 +42,7 @@ export default {
 .home-section-text {
     width: 50%;
     h1 {
-        background: linear-gradient(to bottom, #026ee2 30%, #0355ad 70%);
+        background: linear-gradient(to bottom, #2280e4 30%, #0e69c9 70%);
         color: transparent;
         -webkit-background-clip: text;
         margin-bottom: 15px;
@@ -79,6 +79,62 @@ export default {
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .home-section-text .btn {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .home-section-text {
+        h1 {
+            font-size: 58px;
+            line-height: 62px;
+        }
+        h2 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #home-section .frame-container .container {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .home-section-text {
+        width: 100%;
+        text-align: center;
+    }
+    .home-section-img {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .home-section-img {
+        width: 100%;
+    }
+    .home-section-text .btn {
+        width: 100%;
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .home-section-text {
+        h1 {
+            font-size: 42px;
+            line-height: 50px;
+        }
+        h2 {
+            font-size: 22px;
+            line-height: 30px;
+        }
     }
 }
 
