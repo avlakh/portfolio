@@ -16,6 +16,10 @@ header {
     box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
 }
 
+.mobile-header {
+    box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
+}
+
 .container,
 #main-menu,
 #main-menu ul,
@@ -185,10 +189,10 @@ li {
     padding: 20px;
     height: 100vh;
     z-index: 2000;
-    transform: translateY(-100vh);
-    transition: all .5s ease;
+    transform: translateY(100vh);
+    transition: all .2s ease;
     &.open {
-    transform: translateY(0);
+        transform: translateY(0);
     }
 }
   

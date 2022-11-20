@@ -55,7 +55,7 @@ export default {
     data() {
         return {
             options: {
-                max: 5,
+                max: 10,
                 speed: 5000,
                 glare: true,
                 "max-glare": 0.2
@@ -146,7 +146,7 @@ export default {
         padding: 5px 20px;
         border-radius: 12px;
         background-color: #e8ebf0;
-        box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+        box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
         color: $accent-clr;
         transition: all 0.2s ease;
     }
@@ -208,7 +208,6 @@ export default {
             object-fit: cover;
         }
         &:hover {
-            cursor: pointer;
             transform: scale(1.1);
             border-radius: 12px;
         }

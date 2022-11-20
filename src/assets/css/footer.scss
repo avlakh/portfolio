@@ -17,7 +17,9 @@ footer {
             color: $accent-clr;
         }
     }
-    
+    h5 {
+        text-align: center;
+    }
 }
 
 .footer-contact {
@@ -36,9 +38,23 @@ footer {
     display: flex;
     gap: 30px;
     justify-content: center;
+    margin-bottom: 20px;
     a {
+        display: block;
         font-size: 24px;
+        i {
+            height: 100%;
+            width: 100%;
+            &:before {
+                height: 100%;
+                width: 100%;  
+            }
+        }
     }
+}
+
+.footer-name {
+   color: $accent-clr;
 }
 
 @media screen and (max-width: 800px){
@@ -63,5 +79,6 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        gap: 0px;
     }
 }

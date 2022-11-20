@@ -49,7 +49,6 @@ export default {
     methods: {
         updateScroll() {
             if (window.innerWidth >= 750){
-                console.log(window.innerWidth)
                 this.scrollPosition = window.scrollY;
             }
         },
