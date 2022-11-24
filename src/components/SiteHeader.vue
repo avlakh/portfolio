@@ -45,6 +45,7 @@ export default {
     },
     mounted() {
         window.addEventListener('scroll', this.updateScroll);
+        window.addEventListener('resize', this.updateScroll);
     },
     methods: {
         updateScroll() {

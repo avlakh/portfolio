@@ -252,6 +252,12 @@ export default {
     }
 }
 
+@media screen and (max-width: 750px) {
+    #about {
+        padding: 20px 0;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .about-me-flex #tiltMe {
         width: 100%;
@@ -262,6 +268,7 @@ export default {
     .about-me-skills {
         align-items: center;
         justify-content: center;
+        margin-bottom: 30px;
     }
     .cv-btn {
         width: 100%;

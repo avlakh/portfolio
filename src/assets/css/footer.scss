@@ -63,6 +63,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 750px) {
+    footer {
+        padding: 20px 0;
+    }
+}
+
 @media screen and (max-width: 650px){
     footer .container h2 {
         text-align: center;

@@ -86,3 +86,9 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 750px) {
+    #projects {
+        padding: 20px 0;
+    }
+}

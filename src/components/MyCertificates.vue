@@ -13,6 +13,11 @@
                         <img src="@/assets/images/certificates/freecodecamp_js.jpg" alt="Free Code Camp JS">
                     </a>
                 </div>
+                <div class="card-img">
+                    <a href="https://www.freecodecamp.org/certification/fcc608e09ce-8042-4f7d-bdfc-ce97e48ee189/responsive-web-design" target="_blank">
+                        <img src="@/assets/images/certificates/freecodecamp_rwd.jpg" alt="Free Code Camp RWD">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -57,5 +62,10 @@ export default {
     }
 }
 
+@media screen and (max-width: 750px) {
+    #certificates {
+        padding: 20px 0;
+    }
+}
 
 </style>

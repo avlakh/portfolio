@@ -89,7 +89,13 @@ export default {
 }
 
 @media screen and (max-width: 1000px){
+    #home-section .frame-container .container {
+        flex-direction: column;
+        gap: 40px;
+    }
     .home-section-text {
+        width: 100%;
+        text-align: center;
         h1 {
             font-size: 58px;
             line-height: 62px;
@@ -99,19 +105,15 @@ export default {
             line-height: 36px;
         }
     }
-}
-
-@media screen and (max-width: 1000px){
-    #home-section .frame-container .container {
-        flex-direction: column;
-        gap: 40px;
-    }
-    .home-section-text {
-        width: 100%;
-        text-align: center;
-    }
     .home-section-img {
         width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    #home-section {
+        padding: 80px 0 20px;
     }
 }
 
