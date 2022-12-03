@@ -182,7 +182,7 @@ li {
 
 #side-block {
     display: block;
-    width: 100vw;
+    width: 320px;
     position: fixed;
     left: 0;
     top: 0;
@@ -190,7 +190,7 @@ li {
     padding: 20px;
     height: 100vh;
     z-index: 2000;
-    transform: translateY(100vh);
+    transform: translateX(-320px);
     transition: all .2s ease;
     &.open {
         transform: translateY(0);
