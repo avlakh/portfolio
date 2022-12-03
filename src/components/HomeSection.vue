@@ -26,11 +26,14 @@ export default {
 @import '@/assets/css/vars.scss';
 
 #home-section {
+    height: 100vh;
     padding: 80px 0 40px;
     .frame-container {
+        height: 100%;
         box-shadow: inset 10px 10px 10px #d1d9e6, inset -10px -10px 10px #f9f9f9;
         border-radius: 12px;
         .container {
+            height: 100%;
             display: flex;
             align-items: center;
             justify-content: start;

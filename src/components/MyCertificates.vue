@@ -35,6 +35,7 @@ export default {
 
 #certificates {
     padding: 40px 0;
+    scroll-margin-top: 30px;
     h2 {
         margin-bottom: 40px;
     }

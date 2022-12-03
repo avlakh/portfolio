@@ -70,7 +70,7 @@ export default {
 @import '@/assets/css/vars.scss';
 
 #about {
-    scroll-margin-top: 60px;
+    scroll-margin-top: 30px;
     padding: 40px 0;
     .container {
         padding: 25px 0;
@@ -84,7 +84,6 @@ export default {
 .about-me-flex {
     display: flex;
     gap: 40px;
-    align-items: center;
 }
 
 .about-me-img {
