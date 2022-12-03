@@ -18,9 +18,9 @@
                         <p>Hey &#128075; My name is Artem and I'm just beginning my journey in Front-end Development. Currently expanding my skillset within web development and looking for job opportunities.</p>
                         <p>An open-minded, result-oriented specialist with great time-management skills that strives to learn more.</p>
                         <div class="about-me-skills">
-                            <span>HTML5</span><span>CSS3/SCSS</span><span>JavaScript ES6+</span><span>Vue3</span><span>AJAX</span><span>Flex/Grid</span><span>Bootstrap5</span><span>jQuery</span><span>GIT/Github</span><span>APIs</span><span>Figma</span><span>RWD/AWD</span>
+                            <span>HTML5</span><span>Semantic HTML</span><span>OpenGraph / Schema</span><span>CSS3 / SCSS</span><span>Flex / Grid</span><span>RWD / AWD</span><span>CSS animation</span><span>Cross-browser development</span><span>Bootstrap5</span><span>JavaScript ES6+</span><span>Vue3</span><span>AJAX</span><span>Web Storage</span><span>jQuery</span><span>Git/Github</span><span>APIs</span><span>Figma</span><span>npm</span><span>Leaflet</span><span>JSON</span><span>Vite</span>
                         </div>
-                        <a href="#" class="cv-btn"><span>Download CV</span><span class=""><i class="icon icon-file_download"></i></span></a>
+                        <a href="#" class="cv-btn"><span>Download CV</span><i class="icon icon-file_download"></i></a>
                     </div>
                     <h3 class="heading-languages">Languages</h3>
                     <div class="about-me-languages">
