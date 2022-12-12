@@ -2,7 +2,7 @@
     {
         "img": "beetroot_final.jpg",
         "imgAlt": "Beetroot - Final Project",
-        "descr": "Finsweet Agency: Vue3 CLI / Vanilla JS / Telegram API / SCSS / RWD / Axios / Plugins / basic SEO",
+        "descr": "Finsweet Agency: Vue3 / Vanilla JS / Telegram API / SCSS / RWD / Axios / Plugins / basic SEO",
         "url": "https://avlakh.github.io/beetroot_project/"
     },
     {
@@ -28,5 +28,11 @@
         "imgAlt": "R&D Blockchain",
         "descr": "R&D Blockchain: Vanilla JS / Basic Three.js / SCSS / RWD",
         "url": "https://avlakh.github.io/r_d_blockchain/"
+    },
+    {
+        "img": "space-travel.jpg",
+        "imgAlt": "Space Tourism",
+        "descr": "Space Tourism: Vue3 / Vue Transition / Vanilla JS / Mobile-first / SCSS / RWD / Grid",
+        "url": "https://vlakh-space-tourism.netlify.app/"
     }
 ]
