@@ -34,5 +34,11 @@
         "imgAlt": "Space Tourism",
         "descr": "Space Tourism: Vue3 / Vue Transition / Vanilla JS / Mobile-first / SCSS / RWD / Grid",
         "url": "https://vlakh-space-tourism.netlify.app/"
+    },
+    {
+        "img": "to-do-list.jpg",
+        "imgAlt": "To-do List",
+        "descr": "To-do List: Vue3 / localStorage",
+        "url": "https://vlakh-todo-list.netlify.app/"
     }
 ]
