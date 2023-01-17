@@ -54,8 +54,8 @@ li {
         height: 100%;
         padding: 10px 20px;
         transition: all 0.2s ease;
+        border-radius: 12px;
         &:hover {
-            border-radius: 12px;
             background: $btn-clr;
             box-shadow: 5px 5px 5px #d1d9e6, -5px -5px 5px #f9f9f9;
             color: $accent-clr;
