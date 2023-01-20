@@ -3,25 +3,7 @@
     <main>
         <HomeSection></HomeSection>
         <AboutMe ></AboutMe>
-        <section id="projects">
-            <div class="container">
-                <h2>Projects</h2>
-                <Carousel :settings="sliderSettings" :breakpoints="sliderBreakpoints">
-                    <Slide v-for="slide in slides" :key="slide">
-                        <div class="content-wrap">
-                            <div class="img-wrap">
-                                <img :src="require('@/assets/images/projects/'+ slide.img)" :alt="slide.imgAlt">
-                            </div>
-                            <p>{{slide.descr}}</p>
-                            <a :href="slide.url" target="_blank"></a>
-                        </div>
-                    </Slide>
-                    <template #addons>
-                        <Navigation/>
-                    </template>
-                </Carousel>
-            </div>
-        </section>
+        <MyProjects></MyProjects>
         <MyCertificates></MyCertificates>
     </main>
     <SiteFooter></SiteFooter>
@@ -34,9 +16,7 @@ import SiteFooter from '@/components/SiteFooter.vue';
 import HomeSection from '@/components/HomeSection.vue';
 import AboutMe from '@/components/AboutMe.vue';
 import MyCertificates from '@/components/MyCertificates.vue';
-import axios from 'axios';
-import 'vue3-carousel/dist/carousel.css'
-import { Carousel, Slide, Navigation } from 'vue3-carousel'
+import MyProjects from './components/MyProjects.vue';
 
 export default {
     components: {
@@ -44,36 +24,10 @@ export default {
     SiteFooter,
     HomeSection,
     AboutMe,
-    Carousel,
-    Slide,
-    Navigation,
-    MyCertificates
+    MyCertificates,
+    MyProjects
 },
-    data(){
-        return {
-            slides: [],
-            sliderSettings: {
-                itemsToShow: 1.1,
-                autoplay: 3000,
-				wrapAround: true
-            },
-            sliderBreakpoints: {
-                1150: {
-                    itemsToShow: 1.1
-                },
-                250: {
-                    itemsToShow: 1
-                }
-            }
-        }
-    },
-    created(){
-        axios
-            .get('data/MyProjects.json')
-            .then(resp =>{
-                this.slides = resp.data;
-            });
-    }
+    
 }
 
 </script>
@@ -83,7 +37,5 @@ export default {
 @import '@/assets/css/norm.scss';
 @import '@/assets/css/fonts.scss';
 @import '@/assets/css/vars.scss';
-@import '@/assets/css/main.scss';
-
 
 </style>
