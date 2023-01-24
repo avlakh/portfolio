@@ -14,8 +14,11 @@
                     <li><a href="https://codepen.io/avlakh" target="_blank" title="CodePen"><i class="icon icon-codepen"></i></a></li>
                     <li><a href="https://www.freecodecamp.org/fcc608e09ce-8042-4f7d-bdfc-ce97e48ee189" target="_blank" title="freeCodeCamp"><i class="icon icon-free-code-camp"></i></a></li>
                 </ul>
-                <h5>Used Vue3, Tilt, Vue3 Carousel & Axios Library</h5>
-                <h5>Made by <span class="footer-name">Artem Vlakh</span> - 2022</h5>
+                <div class="footer-source-link">
+                    <a href="https://github.com/avlakh/portfolio" target="_blank">Portfolio Source Code</a>
+                </div>
+                <h5>Used Vue3, Tilt & Axios Library</h5>
+                <h5>Made by <span class="footer-name">Artem Vlakh</span> - 2023</h5>
             </div>
         </div>
     </footer>

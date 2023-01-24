@@ -26,15 +26,15 @@
                     <div class="about-me-languages">
                         <div class="lan">
                             <img src="@/assets/images/ua-flag.svg" alt="UA flag"/>
-                            <div class="lan-level">Native</div>
+                            <h6 class="lan-level">Native</h6>
                         </div>
                         <div class="lan">
                             <img src="@/assets/images/pl-flag.svg" alt="PL flag"/>
-                            <div class="lan-level">Advanced</div>
+                            <h6 class="lan-level">Advanced</h6>
                         </div>
                         <div class="lan">
                             <img src="@/assets/images/us-flag.svg" alt="US flag">
-                            <div class="lan-level">Advanced</div>
+                            <h6 class="lan-level">Advanced</h6>
                         </div>
                     </div>
                 </div>
@@ -199,7 +199,9 @@ export default {
         transition: all 0.2s ease;
         padding: 20px 10px;
         .lan-level {
+            font-weight: 500;
             font-size: 20px;
+            cursor: default;
         }
         img {
             height: 30px;

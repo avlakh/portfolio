@@ -32,6 +32,7 @@ export default {
         height: 100%;
         box-shadow: inset 10px 10px 10px #d1d9e6, inset -10px -10px 10px #f9f9f9;
         border-radius: 12px;
+        overflow: hidden;
         .container {
             height: 100%;
             display: flex;
@@ -43,7 +44,7 @@ export default {
 }
 
 .home-section-text {
-    width: 50%;
+    flex: 1;
     h1 {
         background: linear-gradient(to bottom, #2280e4 30%, #0e69c9 70%);
         color: transparent;
@@ -74,11 +75,21 @@ export default {
 }
 
 .home-section-img {
-    width: 50%;
-    height: 100%;
+    flex: 1;
     border-radius: 12px;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    &::before {
+        content: '';
+        display: block;
+        padding-top: 100%;
+    }
     img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -99,6 +110,7 @@ export default {
     .home-section-text {
         width: 100%;
         text-align: center;
+        flex: none;
         h1 {
             font-size: 58px;
             line-height: 62px;
@@ -108,25 +120,12 @@ export default {
             line-height: 36px;
         }
     }
-    .home-section-img {
-        width: 70%;
-    }
 }
 
 
 @media screen and (max-width: 750px) {
     #home-section {
         padding: 80px 0 20px;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .home-section-img {
-        width: 100%;
-    }
-    .home-section-text .btn {
-        width: 100%;
-        padding: 20px 40px;
     }
 }
 

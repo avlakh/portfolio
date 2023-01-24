@@ -57,6 +57,17 @@ footer {
    color: $accent-clr;
 }
 
+.footer-source-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    a {
+        font-size: 24px;
+        
+    }
+}
+
 @media screen and (max-width: 800px){
     .footer-icons a {
         font-size: 28px;
