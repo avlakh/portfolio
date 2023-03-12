@@ -1,51 +1,58 @@
 [
-    {
-        "img": "beetroot_final.jpg",
-        "imgAlt": "Beetroot - Final Project",
-        "descr": "Finsweet Agency: Vue3 / Vanilla JS / Telegram API / SCSS / RWD / Axios / Plugins / basic SEO",
-        "url": "https://avlakh.github.io/beetroot_project/",
-        "githubUrl": "https://github.com/avlakh/beetroot_project"
-    },
-    {
-        "img": "space-travel.jpg",
-        "imgAlt": "Space Tourism",
-        "descr": "Space Tourism: Vue3 / Vue Transition / Vanilla JS / Mobile-first / SCSS / RWD / Grid",
-        "url": "https://vlakh-space-tourism.netlify.app/",
-        "githubUrl": "https://github.com/avlakh/space-travel"
-    },
-    {
-        "img": "moviesAPI.jpg",
-        "imgAlt": "IMDB - Movies API",
-        "descr": "Movies IMDB API: Vue3 / Vanilla JS / APIs / Local Storage / SCSS / RWD / Dark Theme",
-        "url": "https://avlakh.github.io/my_homework/36/index.html",
-        "githubUrl": "https://github.com/avlakh/my_homework/tree/main/36"
-    },
-    {
-        "img": "to-do-list.jpg",
-        "imgAlt": "To-do List",
-        "descr": "To-do List: Vue3 / localStorage",
-        "url": "https://vlakh-todo-list.netlify.app/",
-        "githubUrl": "https://github.com/avlakh/todo-list"
-    },
-    {
-        "img": "r_d_blockchain.jpg",
-        "imgAlt": "R&D Blockchain",
-        "descr": "R&D Blockchain: Vanilla JS / Basic Three.js / SCSS / RWD",
-        "url": "https://avlakh.github.io/r_d_blockchain/",
-        "githubUrl": "https://github.com/avlakh/r_d_blockchain"
-    },
-    {
-        "img": "bhromaon.jpg",
-        "imgAlt": "Bhromaon",
-        "descr": "Bhromaon Travel: jQuery / SCSS / RWD / SEO",
-        "url": "https://avlakh.github.io/my_homework/project1/index.html",
-        "githubUrl": "https://github.com/avlakh/my_homework/tree/main/project1"
-    },
-    {
-        "img": "monticello.jpg",
-        "imgAlt": "Monticello",
-        "descr": "Monticello: jQuery / AJAX / Leaflet / SCSS / RWD / SEO / Plugins",
-        "url": "https://avlakh.github.io/my_homework/project2/index.html",
-        "githubUrl": "https://github.com/avlakh/my_homework/tree/main/project2"
-    }
+	{
+		"img": "beetroot_final.jpg",
+		"imgAlt": "Beetroot - Final Project",
+		"descr": "Finsweet Agency: Vue3 / Vanilla JS / Telegram API / SCSS / RWD / Axios / Plugins / basic SEO",
+		"url": "https://avlakh.github.io/beetroot_project/",
+		"githubUrl": "https://github.com/avlakh/beetroot_project"
+	},
+	{
+		"img": "space-travel.jpg",
+		"imgAlt": "Space Tourism",
+		"descr": "Space Tourism: Vue3 / Vue Transition / Vanilla JS / Mobile-first / SCSS / RWD / Grid",
+		"url": "https://vlakh-space-tourism.netlify.app/",
+		"githubUrl": "https://github.com/avlakh/space-travel"
+	},
+	{
+		"img": "moviesAPI.jpg",
+		"imgAlt": "IMDB - Movies API",
+		"descr": "Movies IMDB API: Vue3 / Vanilla JS / APIs / Local Storage / SCSS / RWD / Dark Theme",
+		"url": "https://avlakh.github.io/my_homework/36/index.html",
+		"githubUrl": "https://github.com/avlakh/my_homework/tree/main/36"
+	},
+	{
+		"img": "to-do-list.jpg",
+		"imgAlt": "To-do List",
+		"descr": "To-do List: Vue3 / Local Storage",
+		"url": "https://vlakh-todolist-vue.netlify.app/",
+		"githubUrl": "https://github.com/avlakh/todo-list"
+	},
+	{
+		"img": "to-do-list-react.jpg",
+		"imgAlt": "To-do List with React",
+		"descr": "To-do List: React / Context API / Hooks / Custom hooks / Local Storage / uuid / RWD",
+		"url": "https://vlakh-todo-list.netlify.app/",
+		"githubUrl": "https://github.com/avlakh/react-todo-list"
+	},
+	{
+		"img": "r_d_blockchain.jpg",
+		"imgAlt": "R&D Blockchain",
+		"descr": "R&D Blockchain: Vanilla JS / Basic Three.js / SCSS / RWD",
+		"url": "https://avlakh.github.io/r_d_blockchain/",
+		"githubUrl": "https://github.com/avlakh/r_d_blockchain"
+	},
+	{
+		"img": "bhromaon.jpg",
+		"imgAlt": "Bhromaon",
+		"descr": "Bhromaon Travel: jQuery / SCSS / RWD / SEO",
+		"url": "https://avlakh.github.io/my_homework/project1/index.html",
+		"githubUrl": "https://github.com/avlakh/my_homework/tree/main/project1"
+	},
+	{
+		"img": "monticello.jpg",
+		"imgAlt": "Monticello",
+		"descr": "Monticello: jQuery / AJAX / Leaflet / SCSS / RWD / SEO / Plugins",
+		"url": "https://avlakh.github.io/my_homework/project2/index.html",
+		"githubUrl": "https://github.com/avlakh/my_homework/tree/main/project2"
+	}
 ]
