@@ -32,7 +32,7 @@
 							more.
 						</p>
 						<div class="about-me-skills">
-							<span>React</span><span>Redux</span><span>Vue</span
+							<span>React</span><span>Redux Toolkit</span><span>Vue</span
 							><span>HTML5</span><span>Semantic HTML</span
 							><span>CSS3 / SCSS</span><span>Flex / Grid</span
 							><span>RWD / AWD</span><span>CSS animation</span
@@ -44,8 +44,8 @@
 							><span>Leaflet</span><span>JSON</span
 							><span>Vite</span>
 						</div>
-						<a href="#" class="cv-btn"
-							><span>Download CV</span
+						<a href="https://drive.google.com/file/d/15BZI7d1Yu5N3vKtNPKaibLiHbElShfrF/view" target="_blank" class="cv-btn"
+							><span>Open CV</span
 							><i class="icon icon-file_download"></i
 						></a>
 					</div>
@@ -231,6 +231,7 @@ export default {
 		gap: 30px;
 		transition: all 0.2s ease;
 		padding: 20px 10px;
+		will-change: transform;
 		.lan-level {
 			font-weight: 500;
 			font-size: 20px;
