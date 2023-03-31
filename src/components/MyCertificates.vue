@@ -2,10 +2,15 @@
     <section id="certificates">
         <div class="container">
             <h2>Certificates</h2>
-            <div class="certificates-grid">
+            <div class="certificates-flex">
                 <div class="card-img">
                     <a href="https://lms.beetroot.academy/diploma/ckyjz27d0sgnq0824288qos59" target="_blank">
                         <img src="@/assets/images/certificates/beetroot-certificate.jpg" alt="Beetroot Certificate">
+                    </a>
+                </div>
+                <div class="card-img">
+                    <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-a66a0dc3-91b8-4918-88bb-bf57a2d6ff46.pdf" target="_blank">
+                        <img src="@/assets/images/certificates/udemy-react.jpg" alt="Udemy React Project">
                     </a>
                 </div>
                 <div class="card-img">
@@ -41,19 +46,19 @@ export default {
     }
 }
 
-.certificates-grid {
-    display: grid;
-    grid-template: repeat(auto-fit, minmax(200px, 1fr)) / repeat(auto-fit, minmax(300px, 1fr));
+.certificates-flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
     gap: 40px;
     .card-img {
-        width: 100%;
-        height: 100%;
+        flex: 35%;
         border: 10px solid $secondary-clr;
         border-radius: 12px;
         box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
-        transition: all 0.2s ease;
+        transition: all 0.2s ease;  
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
         img {
             width: 100%;
@@ -67,6 +72,17 @@ export default {
     #certificates {
         padding: 20px 0;
     }
+}
+
+@media screen and (max-width: 500px) {
+    .certificates-flex .card-img {
+        flex: 50%;
+        &:hover {
+            transform: none;
+        }
+    }
+    
+    
 }
 
 </style>
