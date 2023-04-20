@@ -14,6 +14,13 @@
 		"githubUrl": "https://github.com/avlakh/space-travel"
 	},
 	{
+		"img": "rest-countries.jpg",
+		"imgAlt": "Rest Countries API",
+		"descr": "Rest Countries API: React / React Router v6.1 / SCSS / RWD / FontAwesome / Vite",
+		"url": "https://vlakh-react-countries.netlify.app/",
+		"githubUrl": "https://github.com/avlakh/react-countries"
+	},
+	{
 		"img": "moviesAPI.jpg",
 		"imgAlt": "IMDB - Movies API",
 		"descr": "Movies IMDB API: Vue3 / Vanilla JS / APIs / Local Storage / SCSS / RWD / Dark Theme",
@@ -21,18 +28,18 @@
 		"githubUrl": "https://github.com/avlakh/my_homework/tree/main/36"
 	},
 	{
-		"img": "to-do-list.jpg",
-		"imgAlt": "To-do List",
-		"descr": "To-do List: Vue3 / Local Storage",
-		"url": "https://vlakh-todolist-vue.netlify.app/",
-		"githubUrl": "https://github.com/avlakh/todo-list"
-	},
-	{
 		"img": "to-do-list-react.jpg",
 		"imgAlt": "To-do List with React",
 		"descr": "To-do List: React / Context API / Hooks / Custom hooks / Local Storage / uuid / RWD",
 		"url": "https://vlakh-todo-list.netlify.app/",
 		"githubUrl": "https://github.com/avlakh/react-todo-list"
+	},
+	{
+		"img": "to-do-list.jpg",
+		"imgAlt": "To-do List",
+		"descr": "To-do List: Vue3 / Local Storage",
+		"url": "https://vlakh-todolist-vue.netlify.app/",
+		"githubUrl": "https://github.com/avlakh/todo-list"
 	},
 	{
 		"img": "r_d_blockchain.jpg",
