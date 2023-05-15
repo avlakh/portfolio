@@ -49,13 +49,6 @@
 		"githubUrl": "https://github.com/avlakh/r_d_blockchain"
 	},
 	{
-		"img": "bhromaon.jpg",
-		"imgAlt": "Bhromaon",
-		"descr": "Bhromaon Travel: jQuery / SCSS / RWD / SEO",
-		"url": "https://avlakh.github.io/my_homework/project1/index.html",
-		"githubUrl": "https://github.com/avlakh/my_homework/tree/main/project1"
-	},
-	{
 		"img": "monticello.jpg",
 		"imgAlt": "Monticello",
 		"descr": "Monticello: jQuery / AJAX / Leaflet / SCSS / RWD / SEO / Plugins",
