@@ -21,9 +21,7 @@
 						<h5><span class="bolder-span">City:</span>Warsaw</h5>
 						<h5><span class="bolder-span">Age:</span>26</h5>
 						<p>
-							Hey &#128075; My name is Artem and I'm just
-							beginning my journey in Front-end Development.
-							Currently expanding my skillset within web
+							Hey &#128075; My name is Artem and I'm a front-end developer passionate. Currently expanding my skillset within web
 							development and looking for job opportunities.
 						</p>
 						<p>
@@ -44,7 +42,7 @@
 							><span>Leaflet</span><span>JSON</span
 							><span>Vite</span>
 						</div>
-						<a href="https://drive.google.com/file/d/15BZI7d1Yu5N3vKtNPKaibLiHbElShfrF/view" target="_blank" class="cv-btn"
+						<a href="https://drive.google.com/file/d/1qBismOQr37hB9Sfu73YY9QJA9hrzvXXR/view" target="_blank" class="cv-btn"
 							><span>Open CV</span
 							><i class="icon icon-file_download"></i
 						></a>
