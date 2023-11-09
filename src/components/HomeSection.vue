@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="home-section-text">
 					<h1>Artem Vlakh</h1>
-					<h2>Front-end Developer</h2>
+					<h2>Senior Marketing Coordinator</h2>
 					<a href="#about" class="btn">About me</a>
 				</div>
 				<div class="home-section-img">

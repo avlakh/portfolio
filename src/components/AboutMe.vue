@@ -14,15 +14,13 @@
 				<div class="about-me-text">
 					<div class="about-me-descr">
 						<h3>Artem Vlakh</h3>
-						<h4>Front-end Developer</h4>
 						<h5>
 							<span class="bolder-span">Residence:</span>Poland
 						</h5>
 						<h5><span class="bolder-span">City:</span>Warsaw</h5>
 						<h5><span class="bolder-span">Age:</span>26</h5>
 						<p>
-							Hey &#128075; My name is Artem and I'm a front-end developer passionate. Currently expanding my skillset within web
-							development and looking for job opportunities.
+							Hey &#128075; My name is Artem and I'm a front-end developer passionate. Coming from marketing industry and looking to leverage my web development skills. 
 						</p>
 						<p>
 							An open-minded, result-oriented specialist with
