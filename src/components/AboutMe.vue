@@ -20,7 +20,7 @@
 						<h5><span class="bolder-span">City:</span>Warsaw</h5>
 						<h5><span class="bolder-span">Age:</span>26</h5>
 						<p>
-							Hey &#128075; My name is Artem and I'm a front-end developer passionate. Coming from marketing industry and looking to leverage my web development skills. 
+							Hey &#128075; My name is Artem and I'm pasionate for front end technologies. Having background in marketing industry, I'm looking to intertwine my knowledge with web development solutions for my future career.
 						</p>
 						<p>
 							An open-minded, result-oriented specialist with
