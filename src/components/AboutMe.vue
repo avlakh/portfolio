@@ -18,29 +18,35 @@
 							<span class="bolder-span">Residence:</span>Poland
 						</h5>
 						<h5><span class="bolder-span">City:</span>Warsaw</h5>
-						<h5><span class="bolder-span">Age:</span>26</h5>
+						<h5><span class="bolder-span">Age:</span>27</h5>
 						<p>
-							Hey &#128075; My name is Artem and I'm pasionate for front end technologies. Having background in marketing industry, I'm looking to intertwine my knowledge with web development solutions for my future career.
+							Hey &#128075;, I'm Artem—a passionate advocate for
+							front-end technologies. With a background in the
+							marketing industry, my goal is to seamlessly
+							integrate my expertise with web development
+							solutions, focusing particularly on marketing
+							automation, database management, and personalized
+							marketing for my future career.
 						</p>
-						<p>
-							An open-minded, result-oriented specialist with
-							great time-management skills that strives to learn
-							more.
-						</p>
+
 						<div class="about-me-skills">
-							<span>React</span><span>Redux Toolkit</span><span>Vue</span
-							><span>HTML5</span><span>Semantic HTML</span
-							><span>CSS3 / SCSS</span><span>Flex / Grid</span
-							><span>RWD / AWD</span><span>CSS animation</span
+							<span>Marketing Automation</span
+							><span>Email/push marketing</span
+							><span>Marketing Campaign Planning</span
+							><span>Tableau</span><span>Salesforce</span
+							><span>React</span><span>Redux Toolkit</span
+							><span>Vue</span><span>HTML5</span
+							><span>CSS3 / SCSS</span
 							><span>Cross-browser development</span
-							><span>JavaScript ES6+</span><span>Bootstrap5</span><span>Web Storage</span
+							><span>JavaScript ES6+</span><span>Bootstrap5</span
 							><span>jQuery</span><span>Git/Github</span
-							><span>APIs</span><span>AJAX</span
-							><span>Figma</span><span>npm</span
-							><span>Leaflet</span><span>JSON</span
-							><span>Vite</span>
+							><span>APIs</span><span>Figma</span><span>Vite</span
+							><span>Jira</span><span>Asana</span>
 						</div>
-						<a href="https://drive.google.com/file/d/1qBismOQr37hB9Sfu73YY9QJA9hrzvXXR/view" target="_blank" class="cv-btn"
+						<a
+							href="https://drive.google.com/file/d/1A5qEmSYlF1vcsOjS9rxj2dHiYJWNLrVW/view"
+							target="_blank"
+							class="cv-btn"
 							><span>Open CV</span
 							><i class="icon icon-file_download"></i
 						></a>

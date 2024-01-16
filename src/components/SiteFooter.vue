@@ -18,7 +18,7 @@
                     <a href="https://github.com/avlakh/portfolio" target="_blank">Portfolio Source Code</a>
                 </div>
                 <h5>Used Vue3, Tilt & Axios Library</h5>
-                <h5>Made by <span class="footer-name">Artem Vlakh</span> - 2023</h5>
+                <h5>Made by <span class="footer-name">Artem Vlakh</span> - 2024</h5>
             </div>
         </div>
     </footer>
