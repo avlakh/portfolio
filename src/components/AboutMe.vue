@@ -41,10 +41,10 @@
 							><span>JavaScript ES6+</span><span>Bootstrap5</span
 							><span>jQuery</span><span>Git/Github</span
 							><span>APIs</span><span>Figma</span><span>Vite</span
-							><span>Jira</span><span>Asana</span>
+							><span>Jira</span><span>Asana</span><span>Klaviyo</span>
 						</div>
 						<a
-							href="https://drive.google.com/file/d/1A5qEmSYlF1vcsOjS9rxj2dHiYJWNLrVW/view"
+							href="https://drive.google.com/file/d/1TBMEptBwTVT023gHVNW03VhwbfBimaWo/view"
 							target="_blank"
 							class="cv-btn"
 							><span>Open CV</span
