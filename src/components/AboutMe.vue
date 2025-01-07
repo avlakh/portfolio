@@ -19,16 +19,6 @@
 						</h5>
 						<h5><span class="bolder-span">City:</span>Warsaw</h5>
 						<h5><span class="bolder-span">Age:</span>27</h5>
-						<p>
-							Hey &#128075;, I'm Artem—a passionate advocate for
-							front-end technologies. With a background in the
-							marketing industry, my goal is to seamlessly
-							integrate my expertise with web development
-							solutions, focusing particularly on marketing
-							automation, database management, and personalized
-							marketing for my future career.
-						</p>
-
 						<div class="about-me-skills">
 							<span>Marketing Automation</span
 							><span>Email/push marketing</span
@@ -41,7 +31,8 @@
 							><span>JavaScript ES6+</span><span>Bootstrap5</span
 							><span>jQuery</span><span>Git/Github</span
 							><span>APIs</span><span>Figma</span><span>Vite</span
-							><span>Jira</span><span>Asana</span><span>Klaviyo</span>
+							><span>Jira</span><span>Asana</span
+							><span>Klaviyo</span>
 						</div>
 						<a
 							href="https://drive.google.com/file/d/1TBMEptBwTVT023gHVNW03VhwbfBimaWo/view"
